@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  Stop  -->
+    <marquee behavior="slide" direction="right">
+        Bangabandhu Sheikh Mujibur Rahman Science & Technology University. --> Stop, after scrolling only one time
+    </marquee>
+    <br>
+    <br>
+    <!-- Not Stop -->
+    <marquee behavior="scroll" direction="right">
+        Bangabandhu Sheikh Mujibur Rahman --> Not Stop, scrolling time
+    </marquee>
+    <br>
+    <br>
+    <!-- Alternate -->
+    <marquee behavior="Alternate" direction="right">
+        Bangabandhu Sheikh Mujibur Rahman  --> Not Stop, Alternate time
+    </marquee>
+    <br>
+    <br>
+    <!--mousec stop-->
+    <marquee behavior="scroll" direction="left" onmousedown="this.start();" onmousedown="this.stop();"  >
+        Bangabandhu Sheikh Mujibur Rahman . --> Not Stop, here and hold the mouse marquee Stop
+    </marquee>
+    <br>
+    <br>
+    <!--Not Stop-->
+    <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseover="this.start()">
+        Bangabandhu Sheikh Mujibur Rahman  --> Hover over and hold the mouse marquee Stop
+    </marquee>
+
+    <!--some attributes-->
+    <marquee  width="700" height="40" bgcolor="magenta" behavior="Alternate"  onmouseover="this.stop()" onmouseover="this.start()">
+        Bangabandhu Sheikh Mujibur Rahman  --> Hover over and hold the mouse marquee Stop
+    </marquee>
+
+    <!--Not Stop-->
+    <!--some attributes-->
+    <marquee  width="100" height="100" bgcolor="magenta" behavior="Alternate"  onmouseover="this.stop()" onmouseover="this.start()">
+        Bangabandhu Sheikh Mujibur Rahman  --> Hover over and hold the mouse marquee Stop
+    </marquee>
+</body>
+
+</html>
